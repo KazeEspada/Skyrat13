@@ -58,6 +58,7 @@
 	name = "goat plushie"
 	icon = 'modular_skyrat/icons/obj/plushes.dmi'
 	icon_state = "realgoat"
+	can_random_spawn = FALSE
 
 /obj/item/toy/plush/realgoat
 	name = "goat plushie"
@@ -83,6 +84,7 @@
 	icon_state = "ascendedkinggoat"
 	throwforce = 10
 	force = 10
+	can_random_spawn = FALSE
 	var/divine = TRUE
 
 /obj/item/toy/plush/goatplushie/angry/kinggoat/ascendedkinggoat/attackby(obj/item/I,mob/living/user,params)
@@ -125,6 +127,7 @@
 	icon = 'modular_skyrat/icons/obj/plushes.dmi'
 	icon_state = "guardgoat"
 	throwforce = 6
+	can_random_spawn = FALSE
 
 /obj/item/toy/plush/goatplushie/angry/guardgoat/masterguardgoat
 	name = "royal guard goat plushie"
@@ -132,6 +135,7 @@
 	icon = 'modular_skyrat/icons/obj/plushes.dmi'
 	icon_state = "royalguardgoat"
 	throwforce = 7
+	can_random_spawn = FALSE
 	
 // Dergborg plushies brought to you by Navier#1236 | Commissioned Artist: deviantart.com/mizartz
 /obj/item/toy/plush/borgplushie/doctordrake
